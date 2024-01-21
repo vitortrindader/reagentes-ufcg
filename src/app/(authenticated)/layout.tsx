@@ -9,9 +9,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="flex">
+      <body className="md:flex">
         <Sidebar />
-        <div className="ml-[200px] p-6">{children}</div>
+        <div className="md:ml-[200px] p-6 pt-12">{children}</div>
       </body>
     </html>
   );

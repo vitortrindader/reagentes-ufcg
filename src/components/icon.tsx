@@ -9,7 +9,9 @@ export type AvailableIcons =
   | "configuracoes-default"
   | "esquerda"
   | "usuarios-selected"
-  | "usuarios-default";
+  | "usuarios-default"
+  | "hamburguer"
+  | "x";
 
 const Icon = ({
   id,
