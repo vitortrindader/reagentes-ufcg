@@ -11,7 +11,8 @@ export type AvailableIcons =
   | "usuarios-selected"
   | "usuarios-default"
   | "hamburguer"
-  | "x";
+  | "x"
+  | "arrowDown";
 
 const Icon = ({
   id,
