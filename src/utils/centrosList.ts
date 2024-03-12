@@ -10,7 +10,7 @@ interface Lab {
 const centrosNames: Centro[] = [
   {
     centro: "CCBS",
-    labs: [{ nome: "da" }, { nome: "ba" }],
+    labs: [{ nome: "Laboratório de Medidas Físicas" }, { nome: "ba" }],
   },
   {
     centro: "CCT",

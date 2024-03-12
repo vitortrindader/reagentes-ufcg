@@ -11,7 +11,8 @@ export default function Select({ title, options, setSelected }: Props) {
         <span className="label-text">{title}</span>
       </div>
       <select className="select select-bordered" onChange={setSelected}>
-        {options.map((option, id) => (
+        <option key="selectAll">Todos</option>
+        {options?.map((option, id) => (
           <option key={id}>{option}</option>
         ))}
       </select>

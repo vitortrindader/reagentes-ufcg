@@ -11,7 +11,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="md:flex">
         <Sidebar />
-        <div className="md:ml-[200px] p-6 pt-12">{children}</div>
+        <div className="md:pl-[224px] p-6 pt-12 w-screen">{children}</div>
       </body>
     </html>
   );
